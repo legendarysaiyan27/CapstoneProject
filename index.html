@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Factory Capstone</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Find a Book</a>
+        <a class="navbar-brand" href="/myBooks">My Books</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="text-center">The Book Factory</h1>
+      <div class="input-group justify-content-center">
+        <div class="form-outline">
+          <input id="search" type="search" class="form-control" />
+        </div>
+        <button id="button" type="button" class="btn btn-primary">
+          <i class="fas fa-search">Search</i>
+        </button>
+      </div>
+    </div>
+
+    <div id="results"></div>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
